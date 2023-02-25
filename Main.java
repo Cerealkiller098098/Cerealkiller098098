@@ -46,4 +46,8 @@ class Main {
     String[][] output = {};
     return output;
   }
+    public static String[][] getword(String[][] listofsentences){
+    String[][] output = {};
+    return output;
+  }
 }
