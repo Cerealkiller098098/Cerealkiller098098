@@ -43,6 +43,7 @@ class Main {
         return result;
     }
   public static String[][] getblanks(String[][] listofsentences){
-     String[][] ouput = {}
+    String[][] output = {};
+    return output;
   }
 }
