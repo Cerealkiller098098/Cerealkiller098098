@@ -1,7 +1,7 @@
 class Main {
   public static void main(String[] args) {
     System.out.println("Hello world!");
-    System.out.println(reverseColumns")
+    System.out.println(reverseColumns({}))
   }
   public static void reverseArray(int[] arr){
     int count =0;
