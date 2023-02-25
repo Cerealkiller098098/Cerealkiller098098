@@ -1,8 +1,13 @@
 class Main {
   public static void main(String[] args) {
     System.out.println("Hello world!");
-    int[][] test1 =
-    System.out.println(reverseColumns({}))
+    int[][] test1 ={{1,2,3},{4,5,6},{7,8,9}};
+    reverseColumns(test1);
+    
+    for (int i=0; i < test1.length;i++){ 
+      System.out.println(test1[i]); 
+    }
+    
   }
   public static void reverseArray(int[] arr){
     int count =0;
