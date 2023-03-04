@@ -47,6 +47,7 @@ class Main {
     for(int i = 0; i<sentences.length;i++){
       
     }
+    
     return newone;
   }
 }
