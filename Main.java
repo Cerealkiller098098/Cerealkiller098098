@@ -41,8 +41,9 @@ class Main {
             temp++;
         }
         return result;
-    }
+  }
   public static int[][] findspaces(String[][] sentences){
-    
+    int[][] newone = {};
+    return newone
   }
 }
