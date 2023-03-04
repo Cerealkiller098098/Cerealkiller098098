@@ -45,11 +45,51 @@ class Main {
   public static int[][] findspaces(String[][] sentences){
     int[][] newone = {};
     for(int i = 0; i<sentences.length;i++){
+      int count = 0;
       for(int j = 0;j < sentences[i].length;j++){
-        
+        int[] adding_array = {};
+        if(sentences[i][j].equals(" ")){
+          //add counter to array;
+          
+        }
       }
+      //add the adding array to newone
     }
-    
+    return newone;
+  }
+  public static int[][] findwords(String[][] sentences){
+    int[][] newone = {};
+    for(int i = 0; i<sentences.length;i++){
+      int count = 0;
+      for(int j = 0;j < sentences[i].length;j++){
+        int[] adding_array = {};
+        if(!sentences[i][j].equals(" ")){
+          for(int index = j; index < sentences[i].length;index++){
+            
+          }
+          
+        }
+      }
+      //add the adding array to newone
+    }
+    return newone;
+  }
+  public static int[][] breakdown(String[][] sentences){
+    int[][] newone = {};
+    for(int i = 0; i<sentences.length;i++){
+      int count = 0;
+      int point = 0;
+      for(int j = 0;j < sentences[i].length;j++){
+        int[] adding_array = {};
+        if(sentences[i][j].equals(" ")){
+          // add setences[i].subString(point,count)
+          //point = count
+          
+        }
+        count +=1;
+      }
+      //add the adding array to newone
+    }
     return newone;
   }
 }
