@@ -42,17 +42,4 @@ class Main {
         }
         return result;
     }
-  public static String[][] getblanks(String[][] listofsentences){
-    String[][] output = {};
-    return output;
-  }
-  public static String[][] getword(String[][] listofsentences){
-    String[][] output = {};
-    return output;
-  }
-    public static String[][] createListOfWords(String[][] listofsentences){
-    String[][] output = {};
-    return output;
-  }
-  
 }
