@@ -44,6 +44,9 @@ class Main {
   }
   public static int[][] findspaces(String[][] sentences){
     int[][] newone = {};
-    return newone
+    for(int i = 0; i<sentences.length;i++){
+      
+    }
+    return newone;
   }
 }
