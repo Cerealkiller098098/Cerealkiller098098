@@ -42,5 +42,7 @@ class Main {
         }
         return result;
     }
-  public static int[][]
+  public static int[][] findspaces(String[][] sentences){
+    
+  }
 }
