@@ -3,12 +3,10 @@ class Main {
     System.out.println("Hello world!");
     int[] array1= {1,2,3,4};
     int[][] test1 ={{1,2,3},{4,5,6},{7,8,9}};
-    reverse2d(test1);
+    reverseColumns(test1);
     
-    for (int i=0; i < test1.length;i++){ 
-      for (int j = 0; j<test1[i].length;j++){
-              System.out.println(test1[i][j]); 
-      }
+    for (int i=0; i < test1.length;i++){
+        System.out.println(test1.toString(test1[i]));
     }
     
   }
@@ -31,6 +29,7 @@ class Main {
         }
       }
   }
+  
   public static int[][] reverseColumns(int[][] matrix){
         int rows=matrix.length;
         int cols=matrix[0].length;
