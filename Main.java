@@ -4,12 +4,8 @@ class Main {
     int[] array1= {1,2,3,4};
     int[][] test1 ={{1,2,3},{4,5,6},{7,8,9}};
     reverseColumns(test1);
+    print2DArray(test1);
     
-    for (int i=0; i < test1.length;i++){
-        System.out.println(test1.toString(test1[i]));
-    }
-    
-  }
   public static void reverseArray(int[] arr){
     int count =arr.length-1;
     for(int i=0;i<arr.length/2;i++){
@@ -28,6 +24,11 @@ class Main {
            count += 1;
         }
       }
+  }
+  public static void print2DArray(int[][] result){
+    for (int i=0; i < result.length;i++){
+        System.out.println(result[i]);
+    }
   }
   
   public static int[][] reverseColumns(int[][] matrix){
@@ -95,4 +96,5 @@ class Main {
     }
     return newone;
   }
+}
 }
