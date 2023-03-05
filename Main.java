@@ -1,21 +1,25 @@
 class Main {
   public static void main(String[] args) {
     System.out.println("Hello world!");
+    int[] array1= {1,2,3,4};
     int[][] test1 ={{1,2,3},{4,5,6},{7,8,9}};
-    reverseColumns(test1);
+    reverse2d(test1);
     
     for (int i=0; i < test1.length;i++){ 
-      System.out.println(test1[i]); 
+      for (int j = 0; j<test1[i].length;j++){
+              System.out.println(test1[i][j]); 
+      }
     }
     
   }
   public static void reverseArray(int[] arr){
-    int count =0;
-        for(int i=arr.length-1;i>=0;i--){
-           arr[count] = arr[i];
-           count += 1;
+    int count =arr.length-1;
+    for(int i=0;i<arr.length/2;i++){
+          int temp = arr[i];
+          arr[i] = arr[count-i];
+          arr[count-i] = temp;
             
-        }
+    }
   }
   public static void reverse2d(int[][] mat){
     int count =0;
